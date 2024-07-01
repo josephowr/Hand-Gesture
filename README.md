@@ -16,7 +16,7 @@ Capture Video: Using OpenCV, the script captures live video feed from the webcam
 Process Frames: Each frame is processed using MediaPipe to detect and track hand landmarks.
 Draw Landmarks: The detected hand landmarks are drawn on the video frames.
 The distance between the funger tip and the thumb tip is calculated, the distance is used to control the zoom in/out of the document.
-I used Adobe Acrobat Document viewer. 
+I used Adobe Acrobat Document viewer. Before running the code, make sure the document viewer title in your code![Doc](https://github.com/Stud58/Hand-Gesture/assets/118792996/181e16f7-0108-4222-a6a4-7b43d0b589d4)is set the same as  the title of the document viewer(Adobe Acrobat) 
 Algorithm
 Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
 

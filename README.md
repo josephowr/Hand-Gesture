@@ -31,5 +31,6 @@ Finally, draw the line connecting the thumb tip and the funger tip, i.e controll
 I commented this part since I am using the default Camera(One camera) #cv2.imshow('Gesture Capture', frame)![Hands](https://github.com/Stud58/Hand-Gesture/assets/118792996/e17686f1-985b-4e15-8304-7432d81df673)
 
 
+Uploading Hand Gesture.pdf - Adobe Acrobat Reader (64-bit) 2024-07-01 13-07-11.mp4…
 
 

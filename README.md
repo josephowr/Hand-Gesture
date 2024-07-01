@@ -28,7 +28,7 @@ Detect the landmarks, calculates the distance between the thumb tip and the fing
 
 Finally, draw the line connecting the thumb tip and the funger tip, i.e controlling the zooming effect.
 
-I commented this part since I am using the default Camera(One camera)![Hands](https://github.com/Stud58/Hand-Gesture/assets/118792996/e17686f1-985b-4e15-8304-7432d81df673)
+I commented this part since I am using the default Camera(One camera) #cv2.imshow('Gesture Capture', frame)![Hands](https://github.com/Stud58/Hand-Gesture/assets/118792996/e17686f1-985b-4e15-8304-7432d81df673)
 
 
 

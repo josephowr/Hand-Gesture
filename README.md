@@ -19,6 +19,7 @@ The distance between the funger tip and the thumb tip is calculated, the distanc
 I used Adobe Acrobat Document viewer. Before running the code, make sure the document viewer title in your code![Doc](https://github.com/Stud58/Hand-Gesture/assets/118792996/181e16f7-0108-4222-a6a4-7b43d0b589d4)is set the same as  the title of the document viewer(Adobe Acrobat) 
 
 Algorithm
+
 Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
 
 Adjust the values of the mediapipe utilization to detect one hand only.

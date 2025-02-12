@@ -15,7 +15,7 @@ How It Works:
 Capture Video: Using OpenCV, the script captures live video feed from the webcam.
 Process Frames: Each frame is processed using MediaPipe to detect and track hand landmarks.
 Draw Landmarks: The detected hand landmarks are drawn on the video frames.
-The distance between the funger tip and the thumb tip is calculated, the distance is used to control the zoom in/out of the document.
+The distance between the finger tip and the thumb tip is calculated, the distance is used to control the zoom in/out of the document.
 I used Adobe Acrobat Document viewer. Before running the code, make sure the document viewer title in your code![Doc](https://github.com/Stud58/Hand-Gesture/assets/118792996/181e16f7-0108-4222-a6a4-7b43d0b589d4)is set the same as  the title of the document viewer(Adobe Acrobat) 
 
 Algorithm
@@ -28,7 +28,7 @@ Detect the landmarks by passing the RGB frame to the mediapipe hand detector.
 
 Detect the landmarks, calculates the distance between the thumb tip and the finger tip, uses the distance to control the zooming.
 
-Finally, draw the line connecting the thumb tip and the funger tip, i.e controlling the zooming effect.
+Finally, draw the line connecting the thumb tip and the finger tip, i.e controlling the zooming effect.
 
 I commented this part since I am using the default Camera(One camera) #cv2.imshow('Gesture Capture', frame)![Hands](https://github.com/Stud58/Hand-Gesture/assets/118792996/e17686f1-985b-4e15-8304-7432d81df673)
 
